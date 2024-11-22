@@ -227,8 +227,7 @@ Pipe pipe(1250);
 
 while(window.isOpen()){
     sf::Event event;
-    //test;
-    //ito;
+
     ofstream scoreFileSortie("../fichier/bestScore.txt");
     while(window.pollEvent(event)){
         if(event.type == sf::Event::Closed)

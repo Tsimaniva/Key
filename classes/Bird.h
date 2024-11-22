@@ -7,6 +7,9 @@
 #include <SFML/Graphics.hpp>
 
 class Bird {
+    //jonathan
+    //taratra
+    //revuz
 public: Bird();
     void update();
     void reset();
